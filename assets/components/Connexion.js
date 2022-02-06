@@ -149,7 +149,7 @@ const Connexion = ({ navigation }) => {
         <View style={styles.loginButtonWrapper}>
           <TouchableOpacity
             style={styles.loginButton}
-            onPress={() => navigation.navigate("Home")}
+            onPress={() => navigation.navigate("BtmTab")}
           >
             <Text style={styles.loginText}>SE CONNECTER</Text>
           </TouchableOpacity>
